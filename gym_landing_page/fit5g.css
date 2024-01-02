@@ -1,0 +1,148 @@
+body{
+    background-color: whitesmoke;
+     background: url('bgimg.jpg');
+     color: aliceblue;
+     font-family: 'Poppins', sans-serif;
+}
+
+
+.logo{
+
+    display: inline-block;
+      
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+
+}
+
+.logo  div h2{
+    display: inline;
+    
+}
+
+.logo img{
+    width: 111px;
+    filter: invert(100%);
+    overflow:hidden;
+    
+
+}
+
+
+
+.navbar{
+    
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+
+    border: 2px double aqua;
+    border-radius: 50px;
+    
+
+}
+
+.nav li {
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    
+}
+
+.nav li a{
+    margin:  5px ;
+    text-decoration:none;
+    color: antiquewhite;
+
+
+
+    
+    
+}
+
+.navbar li a:hover{
+    color: aqua;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn {
+    position: absolute;
+    right: 44px;
+    top: 43px;
+    display: inline-block;
+   
+
+    
+}
+
+.btn button{
+    font-family: 'Poppins', sans-serif;
+    color: bisque;
+    size: 120px;
+    font-size: 15px;
+    
+    background-color: transparent;
+    border: 2px double aqua;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+
+.btn button:hover{
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+
+
+.container{
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    width: 480px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+
+}
+
+.form-input input {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: block;
+    width: 240px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.btn2 button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px double black;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    display:block;
+    width: 240px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.btn2 button:hover{
+    color:aqua;
+    font-size: 19px;
+    border: 2px double aqua;
+    cursor: pointer;
+    
+}
